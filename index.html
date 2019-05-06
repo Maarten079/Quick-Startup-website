@@ -37,11 +37,22 @@
       <h2 class="m-heading">
         Uw pc als nieuw.
       </h2>
-      <p >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus nisi accusamus quis velit modi perferendis quidem animi eligendi. Necessitatibus. 
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus nisi accusamus quis velit modi
+        perferendis quidem animi eligendi. Necessitatibus.
       </p>
+      <a id="home-modal-btn" class="btn-primary">Meer informatie</a>
     </div>
   </section>
+
+  <!-- Home modal -->
+  <div id="home-modal" class="modal">
+    <div class="modal-content">
+      <span class="home-close close">&times;</span>
+      <h2 class="s-heading">Uw pc als nieuw.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ipsa sequi aspernatur vel odio, quam voluptate molestiae facilis quibusdam velit architecto consequuntur quidem esse incidunt similique neque! Quo libero sapiente harum deserunt blanditiis illo aliquam ea veritatis ab pariatur commodi qui quibusdam velit natus in architecto laborum suscipit ratione quis, consectetur ad! Amet laborum cum at ipsum maiores nemo minima totam obcaecati! Tenetur doloribus veritatis minima culpa cum qui itaque inventore nam excepturi porro! Possimus excepturi illo molestias odio praesentium unde soluta. Suscipit necessitatibus consequatur veniam labore nostrum incidunt illo blanditiis non perspiciatis atque. Iste esse dolorem omnis recusandae quibusdam.</p>
+    </div>
+  </div>
 
   <!-- Section wat -->
   <section id="wat">
@@ -49,11 +60,23 @@
       <h2 class="m-heading">
         Wat wij doen.
       </h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus laborum temporibus alias facilis impedit reprehenderit, vel rem facere similique recusandae.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus laborum temporibus alias facilis impedit
+        reprehenderit, vel rem facere similique recusandae.
+      </p>
+      <a id="wat-modal-btn" class="btn-primary">Meer informatie</a>
     </div>
     <div class="wat-img">
     </div>
   </section>
+
+  <!-- Wat modal -->
+  <div id="wat-modal" class="modal">
+    <div class="modal-content">
+      <span class="wat-close close">&times;</span>
+      <h2 class="s-heading">Wat wij doen.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ipsa sequi aspernatur vel odio, quam voluptate molestiae facilis quibusdam velit architecto consequuntur quidem esse incidunt similique neque! Quo libero sapiente harum deserunt blanditiis illo aliquam ea veritatis ab pariatur commodi qui quibusdam velit natus in architecto laborum suscipit ratione quis, consectetur ad! Amet laborum cum at ipsum maiores nemo minima totam obcaecati! Tenetur doloribus veritatis minima culpa cum qui itaque inventore nam excepturi porro! Possimus excepturi illo molestias odio praesentium unde soluta. Suscipit necessitatibus consequatur veniam labore nostrum incidunt illo blanditiis non perspiciatis atque. Iste esse dolorem omnis recusandae quibusdam.</p>
+    </div>
+  </div>
 
   <!-- Section wie -->
   <section id="wie">
@@ -64,10 +87,21 @@
         Wie wij zijn.
       </h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique perspiciatis ullam consequatur voluptatem. Ullam explicabo deleniti voluptatibus accusamus fugit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique perspiciatis ullam consequatur voluptatem.
+        Ullam explicabo deleniti voluptatibus accusamus fugit!
       </p>
+      <a id="wie-modal-btn" class="btn-primary">Meer informatie</a>
     </div>
   </section>
+
+  <!-- Wie modal -->
+  <div id="wie-modal" class="modal">
+    <div class="modal-content">
+      <span class="wie-close close">&times;</span>
+      <h2 class="s-heading">Wie wij zijn.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ipsa sequi aspernatur vel odio, quam voluptate molestiae facilis quibusdam velit architecto consequuntur quidem esse incidunt similique neque! Quo libero sapiente harum deserunt blanditiis illo aliquam ea veritatis ab pariatur commodi qui quibusdam velit natus in architecto laborum suscipit ratione quis, consectetur ad! Amet laborum cum at ipsum maiores nemo minima totam obcaecati! Tenetur doloribus veritatis minima culpa cum qui itaque inventore nam excepturi porro! Possimus excepturi illo molestias odio praesentium unde soluta. Suscipit necessitatibus consequatur veniam labore nostrum incidunt illo blanditiis non perspiciatis atque. Iste esse dolorem omnis recusandae quibusdam.</p>
+    </div>
+  </div>
 
   <!-- Section contact -->
   <section id="contact">
@@ -75,7 +109,7 @@
       <h2 class="m-heading">
         Contactformulier
       </h2>
-      <form action="process.php">
+      <form action="#">
         <div class="form-group">
           <label for="naam">Naam</label>
           <input type="text" name="naam" id="naam" placeholder="Voer hier uw naam in">
@@ -89,10 +123,10 @@
           <input type="text" name="telefoon" id="telefoon" placeholder="Voer hier uw telefoonnummer in">
         </div>
         <div class="form-group">
-            <label for="bericht">Bericht</label>
-            <textarea name="bericht" id="bericht" placeholder="Voer hier uw bericht in"></textarea>
-          </div>
-          <input type="submit" value="Send" class="submit-btn">
+          <label for="bericht">Bericht</label>
+          <textarea name="bericht" id="bericht" placeholder="Voer hier uw bericht in"></textarea>
+        </div>
+        <input type="submit" value="Send" class="submit-btn">
       </form>
     </div>
     <div class="contact-img">
@@ -103,10 +137,8 @@
 
 </html>
 
-  <!-- JQuery CDN -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+<!-- JQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>
