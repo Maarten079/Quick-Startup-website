@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
   <title>QuickStartup | ICT services</title>
 
   <!-- Fontsawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
   <!-- Navbar -->
   <nav id="navbar">
@@ -27,9 +30,83 @@
     </ul>
   </nav>
 
-  <!-- Header Showcase -->
-  
+  <!-- Section home -->
+  <section id="home">
+    <div class="home-img"></div>
+    <div class="home-text">
+      <h2 class="m-heading">
+        Uw pc als nieuw.
+      </h2>
+      <p >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus nisi accusamus quis velit modi perferendis quidem animi eligendi. Necessitatibus. 
+      </p>
+    </div>
+  </section>
+
+  <!-- Section wat -->
+  <section id="wat">
+    <div class="wat-text text-left">
+      <h2 class="m-heading">
+        Wat wij doen.
+      </h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus laborum temporibus alias facilis impedit reprehenderit, vel rem facere similique recusandae.</p>
+    </div>
+    <div class="wat-img">
+    </div>
+  </section>
+
+  <!-- Section wie -->
+  <section id="wie">
+    <div class="wie-img">
+    </div>
+    <div class="wie-text text-right">
+      <h2 class="m-heading">
+        Wie wij zijn.
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique perspiciatis ullam consequatur voluptatem. Ullam explicabo deleniti voluptatibus accusamus fugit!
+      </p>
+    </div>
+  </section>
+
+  <!-- Section contact -->
+  <section id="contact">
+    <div class="contact-form">
+      <h2 class="m-heading">
+        Contactformulier
+      </h2>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="naam">Naam</label>
+          <input type="text" name="naam" id="naam" placeholder="Voer hier uw naam in">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Voer hier uw email in">
+        </div>
+        <div class="form-group">
+          <label for="telefoon">Telefoonnummer</label>
+          <input type="text" name="telefoon" id="telefoon" placeholder="Voer hier uw telefoonnummer in">
+        </div>
+        <div class="form-group">
+            <label for="bericht">Bericht</label>
+            <textarea name="bericht" id="bericht" placeholder="Voer hier uw bericht in"></textarea>
+          </div>
+          <input type="submit" value="Send" class="submit-btn">
+      </form>
+    </div>
+    <div class="contact-img">
+
+    </div>
+  </section>
 </body>
+
 </html>
+
+  <!-- JQuery CDN -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>

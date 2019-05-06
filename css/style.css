@@ -11,29 +11,74 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: #777;
+  line-height: 1.5rem;
+}
+
 /* Utility */
 .text-primary {
   color: #4285f4;
 }
 
 .text-secondary {
-  color: #f44285;
+  color: #ff6685;
 }
 
 .active {
-  background: #f44285;
+  background: #ff6685;
   border-radius: 5px;
   color: #fff !important;
 }
 
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  color: #777;
+}
+
+.m-heading {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  color: #777;
+}
+
+.s-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  color: #777;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
 /* Navbar */
 #navbar {
-  background: #fff;
   display: flex;
-  padding: 1rem 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+
+  padding: 1rem;
+  margin: 1rem;
+  height: 10vh;
+
   font-size: 1.25rem;
+
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 #navbar ul {
@@ -44,11 +89,125 @@ a {
 #navbar ul li a {
   color: #777;
   padding: 0.75rem;
-  margin: 0 0.25rem;
+  margin: 0.5rem;
 }
 
 #navbar ul li a:hover {
-  background: #f44285;
+  background: #ff6685;
   border-radius: 5px;
   color: #fff;
+}
+
+/* Section: Home */
+#home {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+#home div {
+  flex: 1;
+}
+
+#home .home-img {
+  background: url('../img/home-img.png') no-repeat center center/cover;
+  height: 90%;
+}
+
+#home .home-text {
+  text-align: center;
+}
+
+/* Section: Wat*/
+#wat {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+#wat div {
+  flex: 1;
+}
+
+#wat .wat-img {
+  background: url('../img/wat-img.png') no-repeat center center/cover;
+  height: 90%;
+}
+
+#wat .wat-text {
+  text-align: center;
+}
+
+/* Section: Wie */
+#wie {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+#wie div {
+  flex: 1;
+}
+
+#wie .wie-img {
+  background: url('../img/wie-img.png') no-repeat center;
+  height: 90%;
+}
+
+#wie .wie-text {
+  text-align: center;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+#contact div {
+  flex: 1;
+}
+
+#contact .contact-img {
+  background: url('../img/contact-img.png') no-repeat center;
+  height: 90%;
+}
+
+#contact .contact-form {
+  padding-left: 15vh;
+}
+
+#contact label {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  color: #777;
+}
+
+#contact .contact-form input, #contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+#contact .submit-btn {
+  background: #ff6685;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 10% !important;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+/* Uitlijnen */
+#contact h2 {
+  margin-left: 0.5rem;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
 }
