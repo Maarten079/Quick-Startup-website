@@ -26,7 +26,7 @@ p {
 }
 
 .active {
-  background: #ff6685;
+  background: #ff6685 !important;
   border-radius: 5px;
   color: #fff !important;
 }
@@ -86,9 +86,10 @@ p {
 
   padding: 1rem;
   margin: 1rem;
-  height: 10vh;
 
   font-size: 1.25rem;
+
+  background: #fff;
 
   position: sticky;
   z-index: 1;
@@ -124,8 +125,9 @@ p {
 }
 
 #home .home-img {
-  background: url('../img/home-img.png') no-repeat center center/cover;
-  height: 90%;
+  background: url('../img/home-img.png') no-repeat center center/contain;
+  background-size: contain; 
+  height: 70%;
 }
 
 #home .home-text {
@@ -148,8 +150,8 @@ p {
 }
 
 #wat .wat-img {
-  background: url('../img/wat-img.png') no-repeat center center/cover;
-  height: 90%;
+  background: url('../img/wat-img.png') no-repeat center center/contain;
+  height: 70%;
 }
 
 #wat .wat-text {
@@ -172,8 +174,8 @@ p {
 }
 
 #wie .wie-img {
-  background: url('../img/wie-img.png') no-repeat center;
-  height: 90%;
+  background: url('../img/wie-img.png') no-repeat center center/contain;
+  height: 70%;
 }
 
 #wie .wie-text {
@@ -187,8 +189,8 @@ p {
 /* Section: Contact */
 #contact {
   display: flex;
-  height: 90vh;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 #contact div {
@@ -196,8 +198,9 @@ p {
 }
 
 #contact .contact-img {
-  background: url('../img/contact-img.png') no-repeat center;
-  height: 90%;
+  background: url('../img/contact-img.png') no-repeat center center/contain;
+  height: 90vh;
+  width: 100%;
 }
 
 #contact .contact-form {
@@ -223,14 +226,18 @@ p {
   color: #fff;
   border: none;
   border-radius: 5px;
-  width: 10% !important;
-  text-align: center;
-  margin-left: 0.7rem;
+  width: 70px !important;
+  margin-left: 2vw;
 }
 
 #contact .submit-btn:hover {
   cursor: pointer;
   background: #ff7685;
+}
+
+/* Footer */
+.footer-container{
+  text-align: center;
 }
 
 /* Uitlijnen */

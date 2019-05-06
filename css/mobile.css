@@ -1,0 +1,83 @@
+p {
+  margin-bottom: 2rem;
+}
+
+/* Utility */
+.m-heading {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+  color: #777;
+}
+
+/* Navbar */
+#navbar {
+  flex-direction: column;
+}
+
+#navbar .menu {
+  margin-top: 1rem;
+}
+
+/* Section: Home */
+#home {
+  flex-direction: column;
+  align-content: center;
+  margin-top: 7vh;
+}
+
+#home .home-img {
+  width: 100%;
+}
+
+#home .home-text {
+  margin: 0 2rem;
+}
+
+/* Section: Wat */
+#wat {
+  flex-direction: column-reverse;
+  align-content: center;
+  margin-top: 5vh;
+}
+
+#wat .wat-img {
+  width: 100%;
+}
+
+#wat .wat-text {
+  margin: 0 2rem;
+}
+
+/* Section: Wie */
+#wie {
+  flex-direction: column;
+  align-content: center;
+}
+
+#wie .wie-img {
+  width: 100%;
+}
+
+#wie .wie-text {
+  margin-bottom: 2rem !important;
+}
+
+/* Contact */
+#contact {
+  display: block;
+  margin-bottom: 10vh;
+}
+
+#contact .contact-img {
+  display: none;
+}
+
+/* Modal */
+.modal {
+  padding-top: 5vh; /* Location of the box */
+}
+
+.modal-content {
+  width: 90%;
+}
