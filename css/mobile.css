@@ -1,13 +1,5 @@
-p {
-  margin-bottom: 2rem;
-}
-
-/* Utility */
-.m-heading {
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-  line-height: 1;
-  color: #777;
+.img-block {
+  width: 100vw;
 }
 
 /* Navbar */
@@ -19,54 +11,27 @@ p {
   margin-top: 1rem;
 }
 
-/* Section: Home */
-#home {
+.h-block-flexcontainer {
   flex-direction: column;
-  align-content: center;
-  margin-top: 7vh;
 }
 
-#home .home-img {
+.img-block {
   width: 100%;
+  flex: 1;
 }
 
-#home .home-text {
-  margin: 0 2rem;
+.text-block {
+  flex: 2;
 }
 
 /* Section: Wat */
 #wat {
   flex-direction: column-reverse;
-  align-content: center;
-  margin-top: 5vh;
-}
-
-#wat .wat-img {
-  width: 100%;
-}
-
-#wat .wat-text {
-  margin: 0 2rem;
-}
-
-/* Section: Wie */
-#wie {
-  flex-direction: column;
-  align-content: center;
-}
-
-#wie .wie-img {
-  width: 100%;
-}
-
-#wie .wie-text {
-  margin-bottom: 2rem !important;
 }
 
 /* Contact */
 #contact {
   display: block;
-  margin-bottom: 10vh;
 }
 
 #contact .contact-img {

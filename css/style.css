@@ -14,43 +14,55 @@ a {
 p {
   color: #777;
   line-height: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /* Utility */
-.text-primary {
-  color: #4285f4;
+.primary-text {
+  color: #4285f4 !important;
 }
 
-.text-secondary {
-  color: #ff6685;
+.secondary-text {
+  color: #ff6685 !important;
 }
 
-.active {
+.active-btn {
   background: #ff6685 !important;
   border-radius: 5px;
   color: #fff !important;
 }
 
 .l-heading {
-  font-size: 4rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
+  font-size: 3rem;
   color: #777;
+  margin: 1rem 0;
 }
 
 .m-heading {
-  font-size: 3rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
+  font-size: 2rem;
   color: #777;
+  margin: 1rem 0;
 }
 
 .s-heading {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
+  font-size: 1.25rem;
   color: #777;
+  margin: 1rem 0;
 }
+
+.l-text {
+  font-size: 1.5rem;
+}
+
+.m-text {
+  font-size: 1.25rem;
+}
+
+.s-text {
+  font-size: 0.75rem;
+}
+
 
 .p-1 {
   padding: 1rem;
@@ -64,7 +76,19 @@ p {
   padding: 3rem;
 }
 
-.btn-primary {
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.primary-button {
   background: #ff6685;
   border-radius: 5px;
   margin: 1rem;
@@ -73,9 +97,27 @@ p {
   max-width: 10rem;
 }
 
-.btn-primary:hover {
+.primary-button:hover {
   cursor: pointer;
   background: #ff7685
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.img-block {
+  height: 100%;
+}
+
+.h-block-flexcontainer {
+  display: flex;
+  align-items: center;
+  height: 90vh;
 }
 
 /* Navbar */
@@ -83,11 +125,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 1rem;
-  margin: 1rem;
-
-  font-size: 1.25rem;
 
   background: #fff;
 
@@ -113,12 +150,7 @@ p {
   color: #fff;
 }
 
-/* Section: Home */
-#home {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-}
+  /* Section: Home */
 
 #home div {
   flex: 1;
@@ -126,24 +158,9 @@ p {
 
 #home .home-img {
   background: url('../img/home-img.png') no-repeat center center/contain;
-  background-size: contain; 
-  height: 70%;
 }
 
-#home .home-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  text-align: center;
-}
-
-/* Section: Wat*/
-#wat {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-}
+  /* Section: Wat*/
 
 #wat div {
   flex: 1;
@@ -151,74 +168,37 @@ p {
 
 #wat .wat-img {
   background: url('../img/wat-img.png') no-repeat center center/contain;
-  height: 70%;
 }
 
-#wat .wat-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  text-align: center;
-}
-
-/* Section: Wie */
-#wie {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-}
-
+  /* Section: Wie */
 #wie div {
   flex: 1;
 }
 
 #wie .wie-img {
   background: url('../img/wie-img.png') no-repeat center center/contain;
-  height: 70%;
-}
-
-#wie .wie-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  text-align: center;
 }
 
 /* Section: Contact */
-#contact {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
 #contact div {
   flex: 1;
 }
 
 #contact .contact-img {
   background: url('../img/contact-img.png') no-repeat center center/contain;
-  height: 90vh;
-  width: 100%;
-}
-
-#contact .contact-form {
-  padding-left: 15vh;
 }
 
 #contact label {
   display: block;
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
   color: #777;
 }
 
 #contact .contact-form input, #contact .contact-form textarea {
   width: 100%;
-  padding: 0.5rem;
-  font-size: 1.1rem;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
 #contact .submit-btn {
@@ -234,18 +214,10 @@ p {
 }
 
 /* Footer */
-.footer-container{
+#main-footer {
   text-align: center;
 }
 
-/* Uitlijnen */
-#contact h2 {
-  margin-left: 0.5rem;
-}
-
-#contact .contact-form .form-group{
-  margin: 0.75rem;
-}
 
 /* Modal */
 
