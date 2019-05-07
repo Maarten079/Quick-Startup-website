@@ -133,10 +133,13 @@
       <h2 class="m-heading">
         <span class="primary-text">Contactformulier</span>
       </h2>
-      <form action="#" class="">
+      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
         <div class="form-group">
-          <label for="naam" class="m-text">Naam</label>
-          <input type="text" name="naam" id="naam" placeholder="Voer hier uw naam in">
+          <label for="name" class="m-text">Naam</label>
+          <input type="text" name="name" id="name" placeholder="Voer hier uw naam in">
         </div>
         <div class="form-group">
           <label for="email" class="m-text">Email</label>
@@ -147,10 +150,13 @@
           <input type="text" name="telefoon" id="telefoon" placeholder="Voer hier uw telefoonnummer in">
         </div>
         <div class="form-group">
-          <label for="bericht" class="m-text">Bericht</label>
-          <textarea name="bericht" id="bericht" placeholder="Voer hier uw bericht in"></textarea>
+          <label for="message" class="m-text">Bericht</label>
+          <textarea name="message" id="message" placeholder="Voer hier uw bericht in"></textarea>
         </div>
-        <input type="submit" value="Send" class="submit-btn">
+        </p>
+        <div data-netlify-recaptcha="true"></div>
+        <p>
+          <input type="submit" value="Send" class="submit-btn">
       </form>
     </div>
     <div class="contact-img img-block">
@@ -159,7 +165,7 @@
 
   <!-- Footer -->
   <footer id="main-footer">
-      <p>Copyright &copy; 2019, QuickStartup, All Rights Reserved</p>
+    <p>Copyright &copy; 2019, Quick-Startup, All Rights Reserved</p>
   </footer>
 </body>
 
