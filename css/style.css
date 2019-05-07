@@ -120,6 +120,10 @@ p {
   height: 90vh;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
