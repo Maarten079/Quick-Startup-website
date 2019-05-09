@@ -31,7 +31,7 @@
         <li><a class="nav-item active-btn" href="#home">Home</a></li>
         <li><a class="nav-item" href="#wat">Wat</a></li>
         <li><a class="nav-item" href="#wie">Wie</a></li>
-        <li><a class="nav-item" href="#contact">Contact</a></li>
+        <li><a class="nav-item maak-afspraak-button" href="#contact">Maak een afspraak</a></li>
       </ul>
     </div>
   </nav>
@@ -133,7 +133,7 @@
       <h2 class="m-heading">
         <span class="primary-text">Contactformulier</span>
       </h2>
-      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </p>
@@ -153,9 +153,6 @@
           <label for="message" class="m-text">Bericht</label>
           <textarea name="message" id="message" placeholder="Voer hier uw bericht in"></textarea>
         </div>
-        </p>
-        <div data-netlify-recaptcha="true"></div>
-        <p>
           <input type="submit" value="Send" class="submit-btn">
       </form>
     </div>

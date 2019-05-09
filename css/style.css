@@ -124,6 +124,16 @@ p {
   display: none;
 }
 
+.maak-afspraak-button {
+  background: #d9e6fc;
+  border-radius: 5px;
+}
+
+.maak-afspraak-button:hover {
+  background: #4285F4 !important;
+  border-radius: 5px;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
