@@ -144,6 +144,8 @@ p {
 
   background: #fff;
 
+  margin: 0rem 1rem 1rem 1rem !important;
+
   position: sticky;
   z-index: 1;
   top: 0;
