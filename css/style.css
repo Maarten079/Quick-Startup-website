@@ -124,6 +124,18 @@ p {
   display: none;
 }
 
+.maak-afspraak-button {
+  background: #d9e6fc !important;
+  color: #777 !important;
+  border-radius: 5px;
+}
+
+.maak-afspraak-button:hover {
+  background: #4285F4 !important;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
@@ -131,6 +143,8 @@ p {
   align-items: center;
 
   background: #fff;
+
+  margin: 0rem 1rem 1rem 1rem !important;
 
   position: sticky;
   z-index: 1;
@@ -158,6 +172,18 @@ p {
 
 #home div {
   flex: 1;
+}
+
+#home .prijslijst {
+  display: flex;
+  flex-direction: column;
+}
+
+#home .prijslijst .prijslijst-item {
+  text-align: left;
+  color: #777;
+  padding: 0.25rem;
+  margin: 0.25rem;
 }
 
 #home .home-img {
@@ -215,6 +241,11 @@ p {
 #contact .submit-btn:hover {
   cursor: pointer;
   background: #ff7685;
+}
+
+#contact p {
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 /* Footer */
