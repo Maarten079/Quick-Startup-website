@@ -70,3 +70,7 @@ p {
 .modal-content {
   width: 90%;
 }
+
+#main-footer {
+  flex-direction: column;
+}
