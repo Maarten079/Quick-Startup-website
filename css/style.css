@@ -211,6 +211,10 @@ p {
 }
 
 /* Section: Contact */
+#contact {
+  height: unset;
+}
+
 #contact div {
   flex: 1;
 }
