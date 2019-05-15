@@ -118,7 +118,7 @@ p {
 .h-block-flexcontainer {
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .hidden {
@@ -219,9 +219,6 @@ p {
   background: url('../img/contact-img.png') no-repeat center center/contain;
 }
 
-#contact form {
-  min-height: 0%;
-}
 
 #contact form label {
   display: block;
@@ -260,7 +257,7 @@ p {
   color: #777;
 }
 
-/* Checkbox */
+  /* Checkbox */
 /* The container */
 .container {
   display: block;
@@ -269,15 +266,10 @@ p {
   margin-bottom: 2rem;
   cursor: pointer;
   font-size: 1rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 /* Hide the browser's default checkbox */
 .container input {
-  position: absolute;
   opacity: 0;
   cursor: pointer;
   height: 0;
