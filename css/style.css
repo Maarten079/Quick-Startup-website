@@ -222,6 +222,7 @@ p {
 
 #contact .contact-img {
   background: url('../img/contact-img.png') no-repeat center center/contain;
+  height: 100vh;
 }
 
 
