@@ -48,6 +48,10 @@ p {
   padding: 0;
 }
 
+.flex-container {
+  flex-direction: column;
+}
+
 /* Section: Wat */
 #wat {
   flex-direction: column-reverse;
@@ -73,4 +77,9 @@ p {
 
 #main-footer {
   flex-direction: column;
+}
+
+#main-footer div {
+  margin: 0.5rem 0.5rem !important;
+
 }
