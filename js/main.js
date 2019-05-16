@@ -39,7 +39,6 @@ window.addEventListener('scroll', function() {
 });
 
 
-
 // Home Modal
 var home_modal = document.getElementById('home-modal');
 var home_modal_btn = document.getElementById("home-modal-btn");

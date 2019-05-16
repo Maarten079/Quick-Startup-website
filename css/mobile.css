@@ -26,7 +26,7 @@ p {
   font-size: 0.75rem;
 }
 
-.h-block-flexcontainer {
+.flex-container {
   flex-direction: column;
 }
 
@@ -35,8 +35,11 @@ p {
   flex: 1;
 }
 
+#development {
+  flex-direction: column-reverse;
+}
 
-  /* Section: Home */
+/* Section: Home */
 
 #home ul {
   list-style-type: none;
