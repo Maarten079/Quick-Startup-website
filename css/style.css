@@ -187,6 +187,7 @@ p {
   background: url("../img/development-img.png") no-repeat center center/contain;
 }
 
+/* Page: Onderhoud */
 /* Section: Home */
 #home div {
   flex: 1;
@@ -225,6 +226,34 @@ p {
 
 #wie .wie-img {
   background: url("../img/wie-img.png") no-repeat center center/contain;
+}
+
+/* Page: Development */
+/* Section: Design */
+#design div {
+  flex: 1;
+}
+
+#design .design-img {
+  background: url("../img/design-img.png") no-repeat center center/contain;
+}
+
+/* Section: Code */
+#coding div {
+  flex: 1;
+}
+
+#coding .coding-img {
+  background: url("../img/coding-img.png") no-repeat center center/contain;
+}
+
+/* Section: Hosting */
+#hosting div {
+  flex: 1;
+}
+
+#hosting .hosting-img {
+  background: url("../img/hosting-img.png") no-repeat center center/contain;
 }
 
 /* Section: Contact */
